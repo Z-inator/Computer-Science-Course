@@ -14,7 +14,7 @@ def dijkstras(graph, start):
   distances = {}
   
   for vertex in graph:
-    distances[vertex] = math.inf()
+    distances[vertex] = inf
     
   distances[start] = 0
   vertices_to_explore = [(0, start)]
